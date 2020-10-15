@@ -1,0 +1,249 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Jacobs Landscape Poster
+% LaTeX Template
+% Version 1.0 (29/03/13)
+%
+% Created by:
+% Computational Physics and Biophysics Group, Jacobs University
+% https://teamwork.jacobs-university.de:8443/confluence/display/CoPandBiG/LaTeX+Poster
+% 
+% Further modified by:
+% Nathaniel Johnston (nathaniel@njohnston.ca)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[final]{beamer}
+
+\usepackage[scale=1.24]{beamerposter} % Use the beamerposter package for laying out the poster
+\usepackage[utf8]{inputenc}
+
+\usetheme{confposter} % Use the confposter theme supplied with this template
+
+\setbeamercolor{block title}{fg=ngreen,bg=white} % Colors of the block titles
+\setbeamercolor{block body}{fg=black,bg=white} % Colors of the body of blocks
+\setbeamercolor{block alerted title}{fg=white,bg=dblue!70} % Colors of the highlighted block titles
+\setbeamercolor{block alerted body}{fg=black,bg=dblue!10} % Colors of the body of highlighted blocks
+% Many more colors are available for use in beamerthemeconfposter.sty
+
+%-----------------------------------------------------------
+% Define the column widths and overall poster size
+% To set effective sepwid, onecolwid and twocolwid values, first choose how many columns you want and how much separation you want between columns
+% In this template, the separation width chosen is 0.024 of the paper width and a 4-column layout
+% onecolwid should therefore be (1-(# of columns+1)*sepwid)/# of columns e.g. (1-(4+1)*0.024)/4 = 0.22
+% Set twocolwid to be (2*onecolwid)+sepwid = 0.464
+% Set threecolwid to be (3*onecolwid)+2*sepwid = 0.708
+
+\newlength{\sepwid}
+\newlength{\onecolwid}
+\newlength{\twocolwid}
+\newlength{\threecolwid}
+\setlength{\paperwidth}{48in} % A0 width: 46.8in
+\setlength{\paperheight}{36in} % A0 height: 33.1in
+\setlength{\sepwid}{0.024\paperwidth} % Separation width (white space) between columns
+\setlength{\onecolwid}{0.22\paperwidth} % Width of one column
+\setlength{\twocolwid}{0.464\paperwidth} % Width of two columns
+\setlength{\threecolwid}{0.708\paperwidth} % Width of three columns
+\setlength{\topmargin}{-0.5in} % Reduce the top margin size
+%-----------------------------------------------------------
+\renewcommand{\figurename}{Fig.}
+
+\definecolor{dorado}{RGB}{255,204,102}
+
+\usepackage{graphicx}  % Required for including images
+
+\usepackage{booktabs} % Top and bottom rules for tables
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION 
+%----------------------------------------------------------------------------------------
+
+\title{A SIMPLIFIED APPROACH TO SOME OF THE SCATTERINGS IN THE ATMOSPHERE} % Poster title
+
+\author{\ SUKRITI  *  SAUNDARYA PRAKASH  *  SHUBHAJIT DEY} % Author(s)
+
+\institute{INDIAN INSTITUTE OF SCIENCE EDUCATION AND RESEARCH, BHOPAL} % Institution(s)
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\addtobeamertemplate{block end}{}{\vspace*{2ex}} % White space under blocks
+\addtobeamertemplate{block alerted end}{}{\vspace*{2ex}} % White space under highlighted (alert) blocks
+
+\setlength{\belowcaptionskip}{2ex} % White space under figures
+\setlength\belowdisplayshortskip{2ex} % White space under equations
+
+\begin{frame}[t] % The whole poster is enclosed in one beamer frame
+
+\begin{columns}[t] % The whole poster consists of three major columns, the second of which is split into two columns twice - the [t] option aligns each column's content to the top
+
+\begin{column}{\sepwid}\end{column} % Empty spacer column
+
+\begin{column}{\onecolwid} % The first column
+
+%----------------------------------------------------------------------------------------
+%	OBJECTIVES
+%----------------------------------------------------------------------------------------
+
+\begin{block}{INTRODUCTION}
+\emph{Scattering of light} is the phenomenon in which light rays get deviated from its straight path on striking an obstacle like dust or gas molecules, water vapours etc. present in the atmosphere.
+\\Principal forms of scattering are as follows:\bigskip
+\\ \emph{1.Rayleigh Scattering: }
+\\ \emph{Raleigh} is elastic scattering from small particles such as atoms or molecules, resulting in scattered radiation that occurs in all directions uniformly. It is wavelength dependent with shorter wavelengths being more scattered.\bigskip 
+\\ \emph{2.Debye or Mie Scattering: }
+\\ \emph{Debye or Mie} is an elastic scattering mechanism which occurs from relatively large particles or molecules with dimensions comparable with the wavelength of the incident radiation, or larger. The effect is not very wavelength dependent.\bigskip
+\\ \emph{3.Raman Scattering: }
+\\ \emph{Raman} is an inelastic scattering mechanism where the frequency of the scattered radiation is changed by the gain or loss of energy which corresponds to energy levels in an atom or molecule. It is very weak and is typically much smaller than the Rayleigh scattered light.\bigskip
+\\ \emph{5.Thompson Scattering: }
+\\ \emph{Thompson scattering} is an elastic scattering mechanism where light is scattered by charged particles. A comparable form of scattering called \emph{Compton scattering} is an inelastic form of Thompson scattering which occurs when the energy of the incident radiation starts to become comparable to the rest energy of the charged particle. 
+
+
+\end{block}
+
+
+
+%----------------------------------------------------------------------------------------
+%	INTRODUCTION
+%----------------------------------------------------------------------------------------
+
+
+
+\begin{alertblock}{FACT BOX}
+Dr.C V Raman recieved the Nobel Prize in Physics in the year 1930 for his groundbreaking theory in the field of $scattering$ and hence for the dicovery of $Raman$ $Scattering.$
+\end{alertblock}
+
+\end{column} % End of the first column
+
+\begin{column}{\sepwid}\end{column} % Empty spacer column
+
+\begin{column}{\onecolwid} % Begin a column which is two columns wide (column 2)
+
+%\begin{columns}[t,totalwidth=\twocolwid] % Split up the two columns wide column
+
+%\begin{column}{\onecolwid}\vspace{-.6in} % The first column within column 2 (column 2.1)
+
+\begin{block}{WHY IS OUR SKY BLUE ?}
+Let us consider atmospheric particles like gas molecules/dust particles etc. ,i.e, the obstacle for scattering to be roughly spherical with radius 'r' and the wavelength of the incident radiation be  {\lambda}.\bigskip
+\\ Hereby, we can define dimensionless 'size parameter', x = 2\pi r/\lambda.\bigskip
+\\ Particles with x too much less than 1 are relatively ineffective at scattering radiation. Within this so-called \emph{Rayleigh scattering regime} the expression for the $scattering$ $efficiency$ is of the form K \propto \lambda ^{-4} .\bigskip
+\\Now, if we compare the scattering efficiency of blue light with red lights(wavelength 0.47 and 0.64 micrometers respectively) we get:\\ K(blue)/K(red) = {(0.64/0.47)}^{4}=3.45.\bigskip \bigskip
+\\ \emph{This explains the predominance of blue light in the sky over any other colour in the visible spectrum, as scattering efficiency of blue radiation is more than that of other radiations}   
+
+
+
+
+\end{block}
+%------------------------------------------------
+
+
+\begin{figure}
+\includegraphics[width=0.8\linewidth]{blue.jpg}
+\caption{ predominance of blue in the sky}
+\end{figure}
+
+\begin{block}{COLOR OF THE SUN DURING SUNRISE AND SUNSET}
+The sky and the Sun at sunset or sunrise appears red. Near the horizon, most of the blue light and shorter wavelengths are scattered away. Thus, the light that reaches our eyes is of longer wavelengths. This results to the reddish shade of the Sun.\bigskip
+\\ The scattering here has certainly occurred due to obstacles like molecules of light gases such as Helium, Hydrogen etc.
+
+
+
+
+\end{block}
+
+
+\end{column} % End of column 2
+\begin{column}{\sepwid}\end{column}
+\begin{column}{\onecolwid} 
+
+\begin{figure}
+\includegraphics[width=0.8\linewidth]{sunrise.jpg}
+\caption{ dominance of red during sunrise}
+\end{figure}
+
+\begin{figure}
+\includegraphics[width=0.8\linewidth]{sunset.jpg}
+\caption{ dominance of red during sunset}
+\end{figure}
+
+\setbeamercolor{block alerted title}{fg=white,bg=dgreen!70} % Colors of the highlighted block titles
+\setbeamercolor{block alerted body}{fg=black,bg=dgreen!20} % Colors of the body of highlighted blocks
+\begin{alertblock}{IDEA TO BE THOUGHT ABOUT}
+If triggered in an efficient way, then the principle of scattering can be used to develop technologies which can detect level/extent of water pollution caused by any macro contaminant/pollutant. For example: for a certain pollutant a specific wavelength of radiation can be selected and released in the region under observation. Now the feedback radiations received can be studied and hopefully any algorithm can be searched which can tell us the percentage of contamination by that particular pollutant in that specific region. Such methods, if developed, can prove to be of great values. 
+\end{alertblock}
+
+
+
+\end{column} % End of column 3
+
+\begin{column}{\sepwid}\end{column} % Empty spacer column
+
+\begin{column}{\onecolwid} % The third column
+
+%----------------------------------------------------------------------------------------
+%	CONCLUSION
+%----------------------------------------------------------------------------------------
+
+\begin{block}{REFERENCES}
+The following article and sites were referred in order to stack up the contents for this poster: \bigskip
+\begin{itemize}
+\item https://andor.oxinst.com/learning/view/article/\\scattering-of-light-an-overview-of-the-various-forms-of-light-scattering
+\item https://www.aplustopper.com/scattering-of-lig\item https://www.ck12.org/book/cbse-physics-book-class-x/section/2.5/
+\item https://encyclopedia2./Scattering+of+light
+\end{itemize}
+
+
+
+
+\end{block}
+
+\begin{block}{PUBLISHING}
+\begin{figure}
+\includegraphics[width=0.2\linewidth]{QR1.png}
+\caption{ GitHub repository containing the \LaTeX code used to generate this e-poster }
+\end{figure}
+
+
+\end{block}
+
+\setbeamercolor{block alerted title}{fg=black,bg=dorado} % Change the alert block title colors
+\setbeamercolor{block alerted body}{fg=black,bg=dorado!20} % Change the alert block body colors
+
+\begin{alertblock}{TEAM \& CREDITS}
+\\ \emph{SUKRITI, 19311}
+\begin{itemize}
+\item share of contents
+\item photo credits
+\end{itemize}
+\emph{SAUNDARYA PRAKASH, 19283}
+\begin{itemize}
+\item share of contents
+\item photo credits
+\end{itemize}
+\emph{SHUBHAJIT DEY, 19299}
+\begin{itemize}
+\item share of contents
+\item contribution of "idea to be thought about" section
+\item final poster creation and editing using \LaTeX.
+\end{itemize}
+\end{alertblock}
+
+%----------------------------------------------------------------------------------------
+
+\end{column} % End of the third column
+\begin{column}{\sepwid}\end{column} % Empty spacer column
+
+\end{columns} % End of all the columns in the poster
+
+\end{frame} % End of the enclosing frame
+
+\end{document}
