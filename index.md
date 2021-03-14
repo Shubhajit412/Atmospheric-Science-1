@@ -1,37 +1,32 @@
-## Welcome to GitHub Pages
+## Introduction
 
-You can use the [editor on GitHub](https://github.com/Shubhajit412/EES201-ATMOSPHERIC_SCIENCES/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+The main objective of this course is to determine the significance of studying atmospheric sciences in the regional and global contexts, prediction of weather and climate change, identification and remediation of environmental threats.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+It also analyses recent trends and emerging frontiers.
 
-### Markdown
+### Earth’s Atmosphere
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Sun and its origin | evolution of the Earth and its atmosphere - elements and compounds | spectrum of radiation of the sun and Earth | Composition and structure of the atmosphere - pressure and wind systems | vertical structure of pressure, density, temperature, wind and moisture.
 
-```markdown
-Syntax highlighted code block
+Sun Earth relationships - seasons, heat budget, latitudinal heat budget.
 
-# Header 1
-## Header 2
-### Header 3
+### Atmospheric Observations:
 
-- Bulleted
-- List
+Overview of meteorological observations | measurement of temperature | humidity, pressure, wind and precipitation, high altitude observations | weather RADAR and satellites, vertical structure and composition of the atmosphere.
 
-1. Numbered
-2. List
+### About the codes
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
+The repository contains two main codes :
+1. code to analyse temperature gradient distribution in the atmosphere relative to logitudinal and lattitudinal axes | plots generated are also committed | `language used : R`
+2. code to create an e-poster, which serves as a tool to promote and uplift research ideas in community | topic selected is *A SIMPLIFIED APPROACH TOWARDS SOME OF THE SCATTERINGS IN THE ATMOSPHERE* | `language used : latex`
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+https://www.scienceabc.com/wp-content/uploads/2015/12/atmosphere.jpg![image](https://user-images.githubusercontent.com/70251936/111076218-75123d80-8511-11eb-9643-fe5d50427776.png)
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Shubhajit412/EES201-ATMOSPHERIC_SCIENCES/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### Contact
 
-### Support or Contact
+Feel free to drop a mail at shubhajit19@iiserb.ac.in and follow [Shubhajit412](https://github.com/Shubhajit412) for more updates.
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+*Shubhajit*
+*without wax*
