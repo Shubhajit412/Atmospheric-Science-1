@@ -21,7 +21,8 @@ The repository contains two main codes :
 1. code to analyse temperature gradient distribution in the atmosphere relative to logitudinal and lattitudinal axes | plots generated are also committed | `language used : R`
 2. code to create an e-poster, which serves as a tool to promote and uplift research ideas in community | topic selected is **'A SIMPLIFIED APPROACH TOWARDS SOME OF THE SCATTERINGS IN THE ATMOSPHERE'** | `language used : latex`
 
-[image](https://user-images.githubusercontent.com/70251936/111076218-75123d80-8511-11eb-9643-fe5d50427776.png)
+[image](https://user-images.githubusercontent.com/70251936/111076218-75123d80-8511-11eb-9643-fe5d50427776.png)![111076218-75123d80-8511-11eb-9643-fe5d50427776](https://user-images.githubusercontent.com/70251936/111076693-5f057c80-8513-11eb-95b1-3a7f539c9ebe.png)
+
 
 
 ### Contact
